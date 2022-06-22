@@ -33,7 +33,7 @@ python = "^3.7"
 reporters-db = "^3.2.2"
 lxml = "^4.6.3"
 pyahocorasick = ">= 1.2"
-diff_match_patch_python = "^1.0.2"
+fast-diff-match-patch = "==2.0.0.post1"
 regex = ">=2020.1.8"
 courts-db = "^0.10.0"
 

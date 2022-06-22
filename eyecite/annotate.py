@@ -3,7 +3,7 @@ from difflib import SequenceMatcher
 from functools import partial
 from typing import Any, Callable, Iterable, Optional, Tuple
 
-import diff_match_patch
+import fast_diff_match_patch
 
 from eyecite.utils import is_balanced_html, wrap_html_tags
 
@@ -187,7 +187,7 @@ class SpanUpdater:
         two characters, delete three characters.
         """
         try:
-            return diff_match_patch.diff(
+            return fast_diff_match_patch.diff(
                 a, b, timelimit=0, checklines=False, cleanup_semantic=False
             )
         except AttributeError as e:
