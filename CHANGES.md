@@ -15,6 +15,18 @@ Fixes:
 
 ## Current
 
+**2.3.3.1 - 2021-06-22**
+
+Features:
+- None
+
+Changes:
+- Update diff-match-patch dependency version (and PyPI name)
+
+Fixes:
+- Prior version could not be built by pip in Python 3.10 on MacOS
+
+
 **2.3.3 - 2021-03-23**
 
 Features:
